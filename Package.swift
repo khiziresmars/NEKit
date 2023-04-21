@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/behrang/YamlSwift.git", from: "3.4.4"),
         .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket.git", from: "7.6.5"),
-        .package(url: "https://github.com/Bouke/DNS.git", from: "0.5.0"),
+        .package(url: "https://github.com/Bouke/DNS.git", from: "0.4.0"),
     ],
     targets: [
         .target(
