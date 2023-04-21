@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/behrang/YamlSwift.git", from: "3.4.4"),
         .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket.git", from: "7.6.5"),
-        .package(url: "https://github.com/OperatorFoundation/Resolver.git", from: "0.3.0"),
+        .package(url: "https://github.com/Bouke/DNS.git", from: "0.5.0"),
     ],
     targets: [
         .target(
@@ -24,7 +24,7 @@ let package = Package(
             dependencies: [
                 .product(name: "Yaml", package: "YamlSwift"),
                 .product(name: "CocoaAsyncSocket", package: "CocoaAsyncSocket"),
-                .product(name: "Resolver", package: "Resolver"),
+                .product(name: "DNS", package: "DNS"),
             ],
             path: "src"
         ),
