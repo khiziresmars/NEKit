@@ -14,9 +14,9 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/zhuhaow/YamlSwift.git", from: "3.4.4"),
+        .package(url: "https://github.com/behrang/YamlSwift.git", from: "3.4.4"),
         .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket.git", from: "7.6.5"),
-        .package(url: "https://github.com/zhuhaow/Resolver.git", from: "0.3.1"),
+        .package(url: "https://github.com/OperatorFoundation/Resolver.git", from: "0.3.0"),
     ],
     targets: [
         .target(
